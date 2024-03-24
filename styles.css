@@ -18,6 +18,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 /*
 style pour le header
 */
@@ -35,6 +36,47 @@ nav a {
     text-decoration: none;
 }
 
+/*
+style pour la première section
+*/
+.first-section {
+    background: url("images/cafe1.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first-section h2
+{
+    font-size: 3rem;
+}
+.first-section p {
+    text-align: justify;
+    margin: 5px;
+}
+.first-section a
+{
+   text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.bar
+{
+    width: 80px;
+    height: 10px;
+    background: black;
+    opacity: 0.7;
+    margin: 15px;
+}
 /*
 style pour le footer
 */
